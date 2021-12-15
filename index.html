@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favivon preferencia: light -->
+    <link rel="shortcut icon" href="Landing/img/FaviconsDark/android-chrome-512x512.png" type="image/x-icon" media="(prefers-color-scheme: light)">
+    <link rel="apple-touch-icon" sizes="180x180" href="Landing/img/FaviconsDark/apple-touch-icon.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" sizes="32x32" href="Landing/img/FaviconsDark/favicon-32x32.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" sizes="16x16" href="Landing/img/FaviconsDark/favicon-16x16.png" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="Landing/img/FaviconsDark/site.webmanifest" media="(prefers-color-scheme: light)">
+
+    <!-- Favivon preferencia: dark -->
+    <link rel="shortcut icon" href="Landing/img/FaviconsLight/android-chrome-512x512.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" sizes="180x180" href="Landing/img/FaviconsLight/apple-touch-icon.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="32x32" href="Landing/img/FaviconsLight/favicon-32x32.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="16x16" href="Landing/img/FaviconsLight/favicon-16x16.png" media="(prefers-color-scheme: dark)">
+    <link rel="manifest" href="Landing/img/FaviconsLight/site.webmanifest" media="(prefers-color-scheme: dark)">
+
+    <!-- Favivon -->
+    <!-- Scripts -->
+    <script src="Landing/JS/index.js" defer></script>
+    <!-- </Scripts> -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="Landing/scss/style.css">
+    <!-- </CSS> -->
+    <title>Principais notícias | OverTech</title>
+</head>
+
+<body>
+
+    <div id="preloader">
+        <svg width="670" height="110" viewBox="0 0 670 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="letter-preloader" d="M406.5 17.5V8H338V17.5H365V107.5H379.5V17.5H406.5Z" stroke="url(#paint0_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M53.0177 5C-12.983 5 -16.4814 106.496 51.5154 107.996C120.001 109.507 119.019 5 53.0177 5Z" stroke="url(#paint1_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M51.516 15.9971C2.50962 17.4971 2.02124 95.4971 53.438 95.4971C101.044 95.4971 100.522 14.4971 51.516 15.9971Z" stroke="url(#paint2_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M125 30H111L142 108H157L188 30H174L149.5 95.5L125 30Z" stroke="url(#paint3_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M493.019 71.9648C504.019 18.4659 415.521 3.9707 417.019 70.4679C417.019 113.471 480.02 121.471 491.52 82.4705H478.02C474.02 98.9705 433.52 105.971 430.02 71.9648H493.019ZM480.02 61.5056C482.314 37.0056 436.02 24.0056 430.02 61.5056H480.02ZM480.02 61.5C482.314 37 436.02 24 430.02 61.5H480.02Z" stroke="url(#paint4_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M196.019 70.4601C194.521 3.96288 283.019 18.4581 272.019 71.957H209.02C212.52 105.963 253.02 98.9629 257.02 82.4629H270.52C259.02 121.463 196.019 113.463 196.019 70.4601Z" stroke="url(#paint5_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M210 59.5002C216 22.0002 262.294 35.0002 260 59.5002H235H210Z" stroke="url(#paint6_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M329 42.0987V28.0987C314.2 26.8987 305.5 36.9321 303 42.0987V29.5987H291V108.099H303V108.093C303 47.5984 303 42.0987 329 42.0987Z" stroke="url(#paint7_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M506.022 70.3334C504.519 5.83241 581.52 20.3321 580.019 51.333H566.52C564.02 31.832 517.02 22.832 519.52 70.3334C526.72 107.935 563.02 96.832 566.52 79.8321H580.019C582 109.5 512 128 506.022 70.3334Z" stroke="url(#paint8_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M599 108V2H611.5V40C614.5 28.502 666.5 14.002 668.5 61.002V108H656C656 61 659 40 635.5 40C606.5 40 611.5 61.5 611.5 108H599Z" stroke="url(#paint9_linear_326:1157)" stroke-width="3" />
+            <defs>
+                <linearGradient id="paint0_linear_326:1157" x1="340.769" y1="-10.9954" x2="494.205" y2="66.9196" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_326:1157" x1="6.0708" y1="-14.666" x2="192.743" y2="119.933" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint2_linear_326:1157" x1="17.8037" y1="0.795378" x2="159.457" y2="97.8898" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint3_linear_326:1157" x1="114.113" y1="15.1091" x2="255.891" y2="118.346" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint4_linear_326:1157" x1="420.111" y1="10.4308" x2="566.302" y2="112.069" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint5_linear_326:1157" x1="199.111" y1="10.4229" x2="345.302" y2="112.061" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint6_linear_326:1157" x1="212.025" y1="31.5136" x2="252.678" y2="95.4188" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint7_linear_326:1157" x1="292.536" y1="12.7084" x2="387.922" y2="46.0872" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint8_linear_326:1157" x1="508.994" y1="9.17001" x2="654.506" y2="105.034" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint9_linear_326:1157" x1="601.81" y1="-18.2363" x2="760.51" y2="58.5146" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    <header>
+        <h1 class="logo"><a href=" ">OverTech</a></h1>
+
+        <button id="boxToggleMenu">
+            <span id="toggleMenu"></span>
+        </button>
+
+        <nav id="menu">
+
+            <div class="titleMenu">
+                <h3>Categorias</h3>
+            </div>
+
+            <ul>
+                <li><a href="#blocoNoticia1" title="Notícia">Tecnologia</a></li>
+                <li><a href="#blocoNoticia2" title="Notícia">Política</a></li>
+                <li><a href="#blocoNoticia3" title="Notícia">Saúde</a></li>
+                <li><a href="#blocoNoticia4" title="Notícia">Educação</a></li>
+                <li><a href="OverTech/overTech.html" target="_Blank">Sobre a <i>OverTech</i></a></li>
+            </ul>
+
+
+            <div class="preferences">
+                <div id="changeTheme">
+                    <input type="checkbox" id="theme">
+                    <label for="theme" id="boxLabelTheme">
+                        <i class="far fa-moon" id="iconThemeMoon"></i>
+                        <i class="far fa-sun" id="iconThemeSun"></i>
+                    </label>
+                </div>
+
+                <div id="user">
+                    <button id="BtnCadastro" class="CTA" title="Cadastre-se" onclick="window.location.href='LoginCadastro/form.php'">Login/Cadastro</button>
+
+                    <button id="logout" onclick="window.location.href='LoginCadastro/logout.php'">Sair</button>
+                </div>
+
+                <button id="closeMenu">
+                    <i class="fas fa-chevron-left"></i>
+                    <h5>Fechar</h5>
+                </button>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h2>Últimos destaques</h2>
+
+        <section id="blocoNoticia1" class="blocoNoticia">
+            <div class="card SE" data-categ="Tecnologia1">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Tecnologia2">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+
+            <div class="card" data-categ="Tecnologia3">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+
+            <div class="card" data-categ="Tecnologia4">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+
+            <div class="card" data-categ="Tecnologia5">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="blocoNoticia2" class="blocoNoticia">
+            <div class="card" data-categ="Política1">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Política2">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Política3">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Política4">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Política5">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="blocoNoticia3" class="blocoNoticia">
+            <div class="card" data-categ="Saúde1">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Saúde2">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Saúde3">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Saúde4">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Saúde5">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="blocoNoticia4" class="blocoNoticia">
+            <div class="card" data-categ="Educação1">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Educação2">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Educação3">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Educação4">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="card" data-categ="Educação5">
+                <div class="categoria">
+                    <h4></h4>
+                </div>
+                <div class="titulo">
+                    <h3></h3>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="footer-main">
+            <span class="sabre">
+                <h3>Acompanhe todas as nossas novidades através de nossas redes sociais</h3>
+            </span>
+
+            <div class="icons">
+                <a href="https://www.instagram.com/over_technology/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/over-tech-6a0473224/" title="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/OverTechInt" title="Github" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+
+        <div class="direitos">
+            <h5>OverTech</h5>
+            <h5>Todos diretos autorais vigentes.</h5>
+            <h5>Etec Carapicuíba - 2021</h5>
+        </div>
+    </footer>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+</body>
+
+</html>

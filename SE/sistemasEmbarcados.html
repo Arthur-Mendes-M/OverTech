@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favivon preferencia: light -->
+    <link rel="shortcut icon" href="img/FaviconsDark/android-chrome-512x512.png" type="image/x-icon" media="(prefers-color-scheme: light)">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/FaviconsDark/apple-touch-icon.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/FaviconsDark/favicon-32x32.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/FaviconsDark/favicon-16x16.png" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="img/FaviconsDark/site.webmanifest" media="(prefers-color-scheme: light)">
+
+    <!-- Favivon preferencia: dark -->
+    <link rel="shortcut icon" href="img/FaviconsLight/android-chrome-512x512.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/FaviconsLight/apple-touch-icon.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/FaviconsLight/favicon-32x32.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/FaviconsLight/favicon-16x16.png" media="(prefers-color-scheme: dark)">
+    <link rel="manifest" href="img/FaviconsLight/site.webmanifest" media="(prefers-color-scheme: dark)">
+
+    <!-- Favivon -->
+    <!-- Scripts -->
+    <script src="JS/index.js" defer></script>
+    <!-- </Scripts> -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="scss/style.css">
+    <!-- </CSS> -->
+    <title>Sistemas embarcados & IoT | OverTech</title>
+</head>
+
+<body>
+
+    <div id="preloader">
+        <svg width="670" height="110" viewBox="0 0 670 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="letter-preloader" d="M406.5 17.5V8H338V17.5H365V107.5H379.5V17.5H406.5Z" stroke="url(#paint0_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M53.0177 5C-12.983 5 -16.4814 106.496 51.5154 107.996C120.001 109.507 119.019 5 53.0177 5Z" stroke="url(#paint1_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M51.516 15.9971C2.50962 17.4971 2.02124 95.4971 53.438 95.4971C101.044 95.4971 100.522 14.4971 51.516 15.9971Z" stroke="url(#paint2_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M125 30H111L142 108H157L188 30H174L149.5 95.5L125 30Z" stroke="url(#paint3_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M493.019 71.9648C504.019 18.4659 415.521 3.9707 417.019 70.4679C417.019 113.471 480.02 121.471 491.52 82.4705H478.02C474.02 98.9705 433.52 105.971 430.02 71.9648H493.019ZM480.02 61.5056C482.314 37.0056 436.02 24.0056 430.02 61.5056H480.02ZM480.02 61.5C482.314 37 436.02 24 430.02 61.5H480.02Z" stroke="url(#paint4_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M196.019 70.4601C194.521 3.96288 283.019 18.4581 272.019 71.957H209.02C212.52 105.963 253.02 98.9629 257.02 82.4629H270.52C259.02 121.463 196.019 113.463 196.019 70.4601Z" stroke="url(#paint5_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M210 59.5002C216 22.0002 262.294 35.0002 260 59.5002H235H210Z" stroke="url(#paint6_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M329 42.0987V28.0987C314.2 26.8987 305.5 36.9321 303 42.0987V29.5987H291V108.099H303V108.093C303 47.5984 303 42.0987 329 42.0987Z" stroke="url(#paint7_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M506.022 70.3334C504.519 5.83241 581.52 20.3321 580.019 51.333H566.52C564.02 31.832 517.02 22.832 519.52 70.3334C526.72 107.935 563.02 96.832 566.52 79.8321H580.019C582 109.5 512 128 506.022 70.3334Z" stroke="url(#paint8_linear_326:1157)" stroke-width="3" />
+            <path class="letter-preloader" d="M599 108V2H611.5V40C614.5 28.502 666.5 14.002 668.5 61.002V108H656C656 61 659 40 635.5 40C606.5 40 611.5 61.5 611.5 108H599Z" stroke="url(#paint9_linear_326:1157)" stroke-width="3" />
+            <defs>
+                <linearGradient id="paint0_linear_326:1157" x1="340.769" y1="-10.9954" x2="494.205" y2="66.9196" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_326:1157" x1="6.0708" y1="-14.666" x2="192.743" y2="119.933" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint2_linear_326:1157" x1="17.8037" y1="0.795378" x2="159.457" y2="97.8898" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint3_linear_326:1157" x1="114.113" y1="15.1091" x2="255.891" y2="118.346" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint4_linear_326:1157" x1="420.111" y1="10.4308" x2="566.302" y2="112.069" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint5_linear_326:1157" x1="199.111" y1="10.4229" x2="345.302" y2="112.061" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint6_linear_326:1157" x1="212.025" y1="31.5136" x2="252.678" y2="95.4188" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint7_linear_326:1157" x1="292.536" y1="12.7084" x2="387.922" y2="46.0872" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint8_linear_326:1157" x1="508.994" y1="9.17001" x2="654.506" y2="105.034" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+                <linearGradient id="paint9_linear_326:1157" x1="601.81" y1="-18.2363" x2="760.51" y2="58.5146" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#06FF88" />
+                    <stop offset="0.397049" stop-color="#5201FF" />
+                    <stop offset="0.792178" stop-color="#11F1FF" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+
+    <div id="embed">
+        <div id="closeEmbed" title="Fechar">
+            <i class="fas fa-times"></i>
+        </div>
+        <div id="player">
+            <iframe src="https://www.youtube.com/embed/NM9VqwyQG2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="playersContents">
+        <button type="button" id="video" title="Conteúdo em vídeo">
+            <i class="fab fa-youtube"></i>
+        </button>
+
+        <button type="button"id="sound" title="Conteúdo em áudio">
+            <i class="fas fa-play"></i>
+        </button>
+    </div>
+
+    <header>
+        <h1 class="logo"><a href="../index.html" target="_blank">OverTech</a></h1>
+
+        <button id="boxToggleMenu">
+            <span id="toggleMenu"></span>
+        </button>
+
+        <nav id="menu">
+
+            <div class="titleMenu">
+                <h3>Últimos destaques</h3>
+            </div>
+
+            <ul>
+                <li><a href="../index.html#blocoNoticia1" title="Notícia">Tecnologia | OverTech</a></li>
+                <li><a href="../index.html#blocoNoticia2" title="Notícia">Política | OverTech</a></li>
+                <li><a href="../index.html#blocoNoticia3" title="Notícia">Saúde | OverTech</a></li>
+                <li><a href="../index.html#blocoNoticia4" title="Notícia">Educação | OverTech</a></li>
+                <li><a href="../OverTech/overTech.html" target="_Blank">Sobre a <i>OverTech</i></a></li>
+            </ul>
+
+
+            <div class="preferences">
+                <div id="changeTheme">
+                    <input type="checkbox" id="theme">
+                    <label for="theme" id="boxLabelTheme">
+                        <i class="far fa-moon" id="iconThemeMoon"></i>
+                        <i class="far fa-sun" id="iconThemeSun"></i>
+                    </label>
+                </div>
+
+                <div id="user">
+                    <button id="BtnCadastro" class="CTA" title="Cadastre-se" onclick="window.location.href='../LoginCadastro/form.php'">Login/Cadastro</button>
+
+                    <button id="logout" onclick="window.location.href='../LoginCadastro/logout.php'">Sair</button>
+                </div>
+
+                <button id="closeMenu">
+                    <i class="fas fa-chevron-left"></i>
+                    <h5>Fechar</h5>
+                </button>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <section class="banner">
+        <div class="titulo">
+            <h2>Sistemas embarcados</h2>
+            <p>Uma pequena porém grande área da tecnologia!</p>
+        </div>
+
+        <div id="controlsContent">
+            <div id="goToVideo" class="links" title="Conteúdo em vídeo">
+                <i class="fab fa-youtube"></i>
+                <p>Conteúdo em vídeo</p>
+            </div>
+            <div id="playSound" class="links" title="Conteúdo em áudio">
+                <i class="fas fa-play"></i>
+                <p>Conteúdo em áudio</p>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="infoNoticia">
+            <blockquote id="autores">
+                <cite>Por:
+                    <a href="../OverTech/overTech.html#desenvolvedores" target="_blank">Caio rezende</a>
+                </cite>
+                <span id="data">19/11/2021</span>
+            </blockquote>
+        </div>
+
+        <section id="introducao">
+            <h2>Sistemas Embarcados</h2>
+
+            <div class="content">
+                <h4>
+                    <p>
+                        Um sistema embarcado é um computador construído para o único propósito da sua aplicação, ao invés de prover um sistema computacional generalizado. Essa definição independe da sua construção, pode abranger desde lógicas combinacionais e processadores de 8-bits, até processadores de 64-bits multi-cores e <span title="Application Specific Integrated Circuits | Circuitos integrados específicos de aplicação" class="meaning">ASICs.</span>
+                    </p>
+
+                    <p>
+                        A denominação “embarcado” (Embedded Systems) vem do fato de que estes sistemas são projetados geralmente para serem independentes de uma fonte de energia fixa como uma tomada ou gerador. As principais características de classificação deste sistema são a sua capacidade computacional e a sua independência de operação. Outros aspectos relevantes dependem dos tipos de sistemas, modos de funcionamento e itens desejados em aplicações embarcadas.
+                        Um Sistema Embarcado, pela sua natureza especialista, pode ter inúmeras aplicações. É importante ressaltar que um sistema como este deve ser mais do que um simples computador, ou seja, é um sistema completo e independente, mas desenvolvido para realizar apenas uma determinada tarefa.
+                        Todo sistema embarcado é composto por uma unidade de processamento, que é um circuito integrado, fixado a uma placa de circuito impresso. Possuem uma capacidade de processamento de informações vinda de um software que está sendo processado internamente nessa unidade, logo o software está embarcado na unidade de processamento. Todo software embarcado é classificado de <span title="são um conjunto de instruções operacionais que são programadas diretamente no hardware de equipamentos eletrônicos." class="meaning">firmware.</span>
+                    </p>
+
+                    <p>
+                        O primeiro sistema embarcado que se tem conhecimento é o AGC (Apollo Guidance Computer) ele era um computador que operava a 1,024 MHz e era responsável pelo total controle das espaçonaves Apollo, que levaram diversas vezes o homem à Lua nos anos 60 e 70. O AGC, no entanto, não possuía processador, era todo feito com portas <span title="porta lógica básica | saída binária (0 e 1)" class="meaning">NOR.</span>
+                    </p>
+                </h4>
+
+                <figure id="img">
+                    <img src="img/SEimg.jpg" alt="Sistemas Embarcados imagem" loading="lazy">
+                </figure>
+            </div>
+        </section>
+
+        <section id="caracteristicas">
+            <h2>Características</h2>
+
+            <div class="content">
+                <h4>
+                    <ul>
+                        <li>
+                            <div class="title">
+                                <i class="fas fa-angle-double-right"></i>
+                                Baixo consumo energético
+                            </div>
+
+                            <div class="description">
+                                <p>
+                                    A grande maioria dos componentes e sistemas existentes na área dos sistemas embarcados possuem um baixo consumo energético, pelo fato de (em média) precisarem de não mais doque a voltagem de um conjunto de pilhas.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <i class="fas fa-angle-double-right"></i>
+                                Tamanho reduzido
+                            </div>
+
+                            <div class="description">
+                                <p>
+                                    Os componentes de um sistema embarcado costuma ter um tamanho bem reduzido, quando comparado com os de um sistema de hardware como de um computador, por exemplo.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <i class="fas fa-angle-double-right"></i>
+                                Baixo custo por unidade
+                            </div>
+
+                            <div class="description">
+                                <p>
+                                    Assim como no consumo de energia a grande maioria dos componentes dos sistemas embarcados possuem um baixo custo custo monetario, já que seus materiais não exigem tanta complexidade na linha de produção.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <i class="fas fa-angle-double-right"></i>
+                                Operação especializada
+                            </div>
+
+                            <div class="description">
+                                <p>
+                                    Os sistemas embarcados têm a vantagem de serem desenvolvidos para uma tarefa especifica, os tornando quase sempre mais confiáveis.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <i class="fas fa-angle-double-right"></i>
+                                Baixo tempo de resposta
+                            </div>
+
+                            <div class="description">
+                                <p>
+                                    Por ser um circuito muitas vezes simples e/ou com componentes que não demandam de um processamento mais complexo, o tempo de resposta de um SE (Sistema embarcado) acaba sendo baixo.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <i class="fas fa-angle-double-right"></i>
+                                Hardware e software
+                            </div>
+
+                            <div class="description">
+                                <p>
+                                    Um SE (Sistema embarcado) assim como os demais sistemas possui uma "inteligência" operante por trás, logo o funcionamento do hardware de um SE depende de um software interno e/ou externo, necessitando de ambos para seu completo funcionamento.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </h4>
+            </div>
+        </section>
+
+        <section id="iot">
+            <h2>IoT(INTERNET OF THINGS)</h2>
+
+            <div class="content">
+                <h4>
+                    <p>
+                        A “Internet das Coisas” pertence a uma revolução tecnológica que tem como objetivo conectar os itens usados do dia a dia à rede mundial de computadores (internet). Cada vez mais surgem eletrodomésticos, meios de transporte e até roupas conectadas à Internet, além de outros dispositivos, como computadores e smartphones.
+                    </p>
+
+                    <p>
+                        A ideia é que, cada vez mais, o mundo físico e o digital se tornem um só, através de dispositivos que se comuniquem uns com os outros, com os data centers e suas nuvens. Aparelhos vestíveis, como o Google Glass e o Smartwatch 2, da Sony, transformam a mobilidade e a presença da Internet em diversos objetos em uma realidade cada vez mais próxima.
+                        A ideia existe desde 1991, quando a conexão TCP/IP <span title="Protocolo de Controle de Transmissão / Protocolo de Internet" class="meaning">(Transmission Control Protocol / Internet Protocol)</span> e a Internet que conhecemos hoje começou a se tornar popular. Bill Joy, cofundador da Sun Microsystems, pensou sobre a conexão de Device para Device (D2D), tipo de ligação que faz parte de um conceito maior, o de “várias webs”.
+                        Em 1999, Kevin Ashton do MIT propôs o termo “Internet das Coisas" e dez anos depois escreveu o artigo “A Coisa da Internet das Coisas” para o RFID Journal.
+                        Segundo Ashton a falta de tempo e a rotina intensa fará com que as pessoas busquem outras formas de acessar a internet, tornando possível capturas diversos tipos de dados, que poderão ajudar a reduzir, otimizar e economizar recursos naturais e energéticos.
+
+                    </p>
+                </h4>
+            </div>
+
+            <h3>Computação Ubíqua</h3>
+            <div class="content">
+                <h4>
+                    <p>
+                        O termo Computação Ubíqua foi originalmente criado por Mark Weiser em 1991, no seu artigo "O Computador para o século XXI", para se referir a dispositivos conectados em todos os lugares de forma tão transparente para o ser humano que acabaremos por não perceber que eles estão lá.
+Diversos dispositivos estarão permanentemente conectados à internet e através do envio e recebimento de informações incorporarão nossos hábitos e assim se adaptarão a eles para facilitar o nosso dia a dia.
+Com isso não precisaremos mais procurar informações, já que elas estarão disponíveis a qualquer momento através de qualquer objeto que utilizemos frequentemente. Assim, nosso cotidiano ficará muito mais produtivo, pois não teremos apenas uma interface para obtermos uma informação (como fazemos com o computador, ou o celular), mas sim o faremos através do objeto mais próximo e ele retornará com o resultado de nossa pesquisa.
+Pode parecer uma realidade distante, mas está cada vez mais próxima de nós. Através de conexões 4G e 5G com sinal de qualidade, compartilhamento de dados utilizando conceitos de computação em nuvem e sincronização automática de dados via rede entre PCs, notebooks, tablets e smartphones, estamos começando a ter essa tecnologia presente em nosso cotidiano.
+                    </p>
+                </h4>
+
+                <figure id="img">
+                    <img src="img/IoTimg.jpg" alt="Internet das Coisas - imagem" loading="lazy">
+                </figure>
+            </div>
+        </section>
+
+        <section id="exemplosSEIoT">
+            <h2>Exemplos de sistemas embarcados que levam IoT</h2>
+
+            <div class="content">
+                <h4>
+                    <ul>
+                        <li>
+                            <div class="title">
+                                <i class="fas fa-angle-double-right"></i>
+                                Smart Tv
+                            </div>
+
+                            <div class="description">
+                                <p>
+                                    Televisão com acesso a internet, conectividade apps de streaming e assistentes virtuais.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <i class="fas fa-angle-double-right"></i>
+                                Smart watch
+                            </div>
+
+                            <div class="description">
+                                <p>
+                                    Relógios digitais modernos com a capacidade de conexão via bluetooth ou wifi com diversos ecossistemas de devices.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <i class="fas fa-angle-double-right"></i>
+                                Celulares
+                            </div>
+
+                            <div class="description">
+                                <p>
+                                    O ponta pé dos produtos smart, tudo teve seu início buscando a conexão com ele, um aparelho celular tem conexão wifi, bluetooth, câmera(s) e as mais diversas conexões e utilidades.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <i class="fas fa-angle-double-right"></i>
+                                Automação residencial
+                            </div>
+
+                            <div class="description">
+                                <p>
+                                    Dentro da automação residencial existem muitas alternativas de produtos desde geladeiras, cafeteiras até uma simples lâmpada, mas com o diferencial de ser tudo conectado e programável.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <i class="fas fa-angle-double-right"></i>
+                                Robótica
+                            </div>
+
+                            <div class="description">
+                                <p>
+                                    A robótica tem duas vertentes principais a industrial que atualmente é mais desenvolvida e a residencial que vem dando seus primeiros passos nos últimos anos.
+                                </p>
+                            </div>
+                        </li>
+
+                        <h4>Quase todos os produtos que levam a definição Smart em seus nomes são uma junção dos sistemas embarcados com a IoT.</h4>
+                    </ul>
+
+                </h4>
+            </div>
+        </section>
+
+        <section id="areasIoT">
+            <h2>Quais as áreas que a IoT atua</h2>
+
+            <div class="content">
+                <h4>
+                    <p>
+                        A IoT vem tendo grande participação e uma ótima perspectiva de crescimento em algumas áreas, como o mercado financeiro executando uma tarefa de tomada de decisões financeiras e o acompanhamento e gerenciamentos de ativos, automação residencial interligando e automatizando toda uma casa com os produtos smart, e uma área que demonstra grande potencial para evoluir em conjunto com a IoT é a medicina, que inclusive já possui dispositivos e sistemas integrados com a internet, assim fazendo com que a área avance cada vez mais no uso e aprimoramento da tecnologia IoT.
+                    </p>
+
+                    <p>
+                        Ficou interessado(a) em todas as usabilidades que a IoT possui para a medicina ?
+                        Veja mais sobre, aqui!!
+                    </p>
+                </h4>
+            </div>
+        </section>
+
+        <div id="extraMedicina">
+            <section id="intro">
+                <h2>IoT na medicina</h2>
+                <div class="content">
+                    <h4>
+                        <p>
+                            Um dos maiores desafios é manter a segurança dos dados durante sua transmissão, armazenamento e compartilhamento, já que as informações sobre a saúde dos pacientes são sigilosas. Porém para sua proteção é necessário estabelecer limites o que pode ser feito através de regulamentação.
+                            O desenvolvimento da integração dos sistemas é outro desafio já que é necessário que diversos dispositivos sejam capazes de trocar informações.
+                            E por outro lado os custos para a implementação e adoção da IoT na medicina ainda são muito altos, mas isso é algo que deve ser superado dentro de alguns anos.
+                        </p>
+                    </h4>
+                    <figure id="img">
+                        <img src="img/medicinaTech.jpg" alt="Medicina com IoT - imagem" loading="lazy">
+                    </figure>
+                </div>
+            </section>
+
+            <section id="vantagensMedicina">
+                <h2>As vantagens de se ter a IoT na medicina</h2>
+
+                <div class="content">
+                    <h4>
+                        <ul>
+                            <li>
+                                <div class="title">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Monitoramento contínuo do paciente
+                                </div>
+
+                                <div class="description">
+                                    <p>
+                                        Com o monitoramento contínuo, os médicos terão em mãos dados mais assertivos dos pacientes que por exemplo estão em algum tratamento feito de suas casas.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Registro autônomo de informações
+                                </div>
+
+                                <div class="description">
+                                    <p>
+                                        O IoT possibilita o trabalho conjunto com o item a acima, registrando e mantendo qualquer dado adquirido do paciente de forma autônoma.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Compartilhamento de dados
+                                </div>
+
+                                <div class="description">
+                                    <p>
+                                        Tal tecnologia possibilita também um melhor e maior compartilhamento dos dados do paciente entre os médicos.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Histórico médico
+                                </div>
+
+                                <div class="description">
+                                    <p>
+                                        Com a possibilidade do compartilhamento dos dados do paciente, os médicos têm certeza de todo o histórico médico de cada um, assim podendo tomar algumas decisões com maior tranquilidade.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Empoderamento do paciente
+                                </div>
+
+                                <div class="description">
+                                    <p>
+                                        O paciente tem acesso a tudo seja resultado de exames, aumento de dosagens até a progressão de seus tratamentos.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Ações preventivas e de autocuidado
+                                </div>
+
+                                <div class="description">
+                                    <p>
+                                        Com tudo isso os médicos têm um conhecimento considerável sobre seus pacientes podendo acompanhá-los com maior facilidade e caso necessário oferecendo um tratamento preventivo.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </h4>
+                </div>
+            </section>
+
+            <section id="invencoesMedicina">
+                <h2>Algumas invenções que contém a IoT</h2>
+
+                <div class="content">
+                    <h3>Registros digitais de exames</h3>
+                    <h4>
+                        <p>
+                            Atualmente, existem aparelhos digitais para exames de diagnóstico – como raio X, tomografia e eletrocardiograma, capazes de gerar e armazenar dados digitalmente, eliminando o uso de papel.
+                        </p>
+                    </h4>
+                </div>
+                <div class="content">
+                    <h3>Marcapassos cardíacos com dispositivo IoT</h3>
+                    <h4>
+                        <p>
+                            Alguns dos aparelhos conectados tem que ser implantados no paciente. É o caso de marcapassos inteligentes, que facilitam o acompanhamento de milhares de pessoas nos Estados Unidos. Assim como os wearables, esses dispositivos coletam, armazenam e enviam informações em tempo real sobre o sistema cardiovascular do paciente.
+                        </p>
+                    </h4>
+                </div>
+                <div class="content">
+                    <h3>Sensores ingeríveis</h3>
+                    <h4>
+                        <p>
+                            Pílulas do tamanho de suplementos vitamínicos podem substituir procedimentos invasivos, monitorar sinais vitais e até detectar precocemente o câncer colorretal. Um exemplo é a PillCam COLON, criada por uma companhia israelense e aprovada em 2017 pela FDA como uma alternativa à colonoscopia.
+                        </p>
+                        <p>
+                            Outra empresa, chamada Scripps Health, desenvolveu nanosensores que são ingeridos e vão para a corrente sanguínea, de onde enviam informações sobre o sistema cardiovascular.
+                        </p>
+                    </h4>
+                </div>
+                <div class="content">
+                    <h3>Monitoramento da evolução dos sintomas de Parkinson</h3>
+                    <h4>
+                        <p>
+                            Uma solução da IBM utiliza um raciocínio similar ao empregado para acompanhar pacientes com depressão, mas voltado à evolução dos sintomas do Parkinson.
+                            Através de um dispositivo vestível, pacientes têm seus dados coletados enquanto realizam tarefas rotineiras e, em seguida, essas informações são analisadas por médicos e outros especialistas.
+                            Esses profissionais podem, com base nas informações registradas, optar por tratamentos mais assertivos e que melhorem a qualidade de vida de quem sofre com a doença degenerativa.
+
+                        </p>
+                    </h4>
+                </div>
+
+            </section>
+
+            <section id="futuroMedicina">
+                <h2>O futuro na medicina</h2>
+
+                <div class="content">
+                    <h4>
+                        <p>
+                            Com a adesão crescente em relação aos dispositivos conectados, seja nas casas, empresas ou estabelecimentos de saúde, a Internet das Coisas vai se tornando uma grande tendência para a medicina do futuro.
+                            Também podemos esperar um aumento na personalização dos tratamentos, levando em conta a análise de diversos dados do paciente.
+                        </p>
+                    </h4>
+                    <figure id="img">
+                        <img src="img/medicinaTechFuturo.png" alt="Futuro do IoT na Medicina - imagem">
+                    </figure>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <section class="footer-main">
+            <span class="sabre">
+                <h3>Acompanhe todas as nossas novidades através de nossas redes sociais</h3>
+            </span>
+
+            <div class="icons">
+                <a href="https://www.instagram.com/over_technology/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/over-tech-6a0473224/" title="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/OverTechInt" title="Github" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+
+        <div class="direitos">
+            <h5>OverTech</h5>
+            <h5>Todos diretos autorais vigentes.</h5>
+            <h5>Etec Carapicuíba - 2021</h5>
+        </div>
+    </footer>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+</body>
+
+</html>
