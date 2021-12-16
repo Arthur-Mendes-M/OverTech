@@ -8,7 +8,7 @@ Tal proposta foi dada pelo professor coordenador do interdisciplinar da minha sa
 <br/>
 
 >🌐 Lembrando, esse projeto está <strong>hospedado</strong> na plataforma <i>InfinityFree</i>. <br/>
->🎉 Caso queira ver e testar, sinta-se avontade para acessa-lo por <a href="http://overtech.epizy.com/" target="_blank">AQUI</a>.
+>🎉 Caso queira ver e testar, sinta-se avontade para acessa-lo por <a href="http://overtech.epizy.com/" target="_Blank">AQUI</a>.
 
 ## Proposta
 
