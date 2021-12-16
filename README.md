@@ -103,7 +103,7 @@ Tendo como ideia central a junção de um canal de notícias e um blog de artigo
 
 <ul>
   <li>
-    <a href="#">Header (Cabeçalho) com logo</a>
+    <a href="#menuOvertech">Header (Cabeçalho) com logo</a>
     <ul>
       <li>Links para navegação interna</li>
       <li>
@@ -121,7 +121,7 @@ Tendo como ideia central a junção de um canal de notícias e um blog de artigo
   
   <li>Manual do usuário em Português e Inglês para download</li>
   
-  <li>Cards para cada PARTICIPANTE DA APRESENTAÇÃO e desenvolvimento do trabalho escolar que envolveu este projeto. Com seus nomes, funções no projeto e redes sociais.</li>
+  <li><a href="cardsOvertech">Cards</a> para cada PARTICIPANTE DA APRESENTAÇÃO e desenvolvimento do trabalho escolar que envolveu este projeto. Com seus nomes, funções no projeto e redes sociais.</li>
 </ul>
 
 <br/>
@@ -208,16 +208,23 @@ Tendo como ideia central a junção de um canal de notícias e um blog de artigo
   <img src="" alt="Print do embed do conteúdo em vídeo na página SE no moblie modo light">
 </div>
 
-<div id="SE" align="center" display="inline_block">
-  <img src="" alt="Print da página SE no desktop">
-  <img src="" alt="Print da página SE no desktop modo light">
-  <img src="" alt="Print da página SE no mobile">
-  <img src="" alt="Print da página SE no moblie modo light">
+<div id="menuOvertech" align="center" display="inline_block">
+  <img src="" alt="Print do menu aberto na página sobre a empresa no desktop">
+  <img src="" alt="Print do menu aberto na página sobre a empresa no desktop modo light">
+  <img src="" alt="Print do menu aberto na página sobre a empresa no mobile">
+  <img src="" alt="Print do menu aberto na página sobre a empresa no moblie modo light">
 </div>
 
-<div id="SE" align="center" display="inline_block">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no desktop">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no desktop modo light">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no mobile">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no moblie modo light">
+<div id="paginaOvertech" align="center" display="inline_block">
+  <img src="" alt="Print da página sobre a empresa no desktop">
+  <img src="" alt="Print da página sobre a empresa no desktop modo light">
+  <img src="" alt="Print da página sobre a empresa no mobile">
+  <img src="" alt="Print da página sobre a empresa no moblie modo light">
+</div>
+
+<div id="cardsOvertech" align="center" display="inline_block">
+  <img src="" alt="Print dos cards dos integrantes na página sobre a empresa no desktop">
+  <img src="" alt="Print dos cards dos integrantes na página sobre a empresa no desktop modo light">
+  <img src="" alt="Print dos cards dos integrantes na página sobre a empresa no mobile">
+  <img src="" alt="Print dos cards dos integrantes na página sobre a empresa no moblie modo light">
 </div>
