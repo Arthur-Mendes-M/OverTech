@@ -121,7 +121,7 @@ Tendo como ideia central a junção de um canal de notícias e um blog de artigo
   
   <li>Manual do usuário em Português e Inglês para download</li>
   
-  <li><a href="cardsOvertech">Cards</a> para cada PARTICIPANTE DA APRESENTAÇÃO e desenvolvimento do trabalho escolar que envolveu este projeto. Com seus nomes, funções no projeto e redes sociais.</li>
+  <li><a href="#cardsOvertech">Cards</a> para cada PARTICIPANTE DA APRESENTAÇÃO e desenvolvimento do trabalho escolar que envolveu este projeto. Com seus nomes, funções no projeto e redes sociais.</li>
 </ul>
 
 <br/>
@@ -142,6 +142,7 @@ Tendo como ideia central a junção de um canal de notícias e um blog de artigo
 
 ### Landin Page (Página inicial | de pouso)
 
+>Landing Page
 <div id="landing" align="center" display="inline_block">
   <img src="ReadmeMedias/LandingDesktopDark.png" alt="Print da página inicial no desktop" width="60%">
   <img src="ReadmeMedias/LandingDesktopLight.png" alt="Print da página inicial no desktop modo light" width="60%">
@@ -149,8 +150,9 @@ Tendo como ideia central a junção de um canal de notícias e um blog de artigo
     <img src="ReadmeMedias/LandingMobileDark.png" alt="Print da página inicial no mobile"  width="200em">
     <img src="ReadmeMedias/LandingMobileLight.png" alt="Print da página inicial no moblie modo light" width="200em">
   </div>
-</div>
+</div><br/>
 
+>Menu
 <div id="showMenu" align="center" display="inline_block">
   <img src="ReadmeMedias/menuLandingDesktopDark.png" alt="Print do menu aberto na página inicial no desktop" width="60%">
   <img src="ReadmeMedias/menuLandingDesktopLight.png" alt="Print do menu aberto na página inicial no desktop modo light" width="60%">
@@ -159,8 +161,9 @@ Tendo como ideia central a junção de um canal de notícias e um blog de artigo
      <img src="ReadmeMedias/menuLandingMobileDark.png" alt="Print do menu aberto na página inicial no mobile" width="200em">
      <img src="ReadmeMedias/menuLandingMobileLight.png" alt="Print do menu aberto na página inicial no moblie modo light" width="200em">
   </div>
-</div>
+</div><br/>
 
+>Notícias
 <div id="cards" align="center" display="inline_block">
   <img src="ReadmeMedias/noticiasDesktopDark.png" alt="Print dos cards de notícia da página inicial no desktop" width="60%">
   <img src="ReadmeMedias/noticiasDesktopLight.png" alt="Print dos cards de notícia da página inicial no desktop modo light" width="60%">
@@ -169,8 +172,9 @@ Tendo como ideia central a junção de um canal de notícias e um blog de artigo
       <img src="ReadmeMedias/noticiasMobileDark.png" alt="Print dos cards de notícia da página inicial no mobile" width="200em">
       <img src="ReadmeMedias/noticiasMobileLight.png" alt="Print dos cards de notícia da página inicial no moblie modo light" width="200em">
   </div>
-</div>
+</div><br/>
 
+>Footer (rodapé) padrão
 <div id="footer" align="center" display="inline_block">
   <img src="ReadmeMedias/footerDesktopDark.png" alt="Print do rodapé da página inicial no desktop" width="60%">
   <img src="ReadmeMedias/footerDesktopLight.png" alt="Print do rodapé da página inicial no desktop modo light" width="60%">
@@ -186,83 +190,55 @@ Tendo como ideia central a junção de um canal de notícias e um blog de artigo
 
 ### Sistemas Embarcados (Página correspondente a uma notícia/artigo criado)
 
+>Conteúdo alternativo (em vídeo)
 <div id="embed" align="center" display="inline_block">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no desktop" width="60%">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no desktop modo light" width="60%">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no mobile" width="200em">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no moblie modo light" width="200em">
+  <img src="ReadmeMedias/embedSEDesktopDark.png" alt="Print do embed do conteúdo em vídeo na página SE no desktop" width="60%">
+  <img src="ReadmeMedias/embedSEDesktopLight.png" alt="Print do embed do conteúdo em vídeo na página SE no desktop modo light" width="60%">
   
   <div display="inline_block">
-    
+    <img src="ReadmeMedias/embedSEMobile.png" alt="Print do embed do conteúdo em vídeo na página SE no mobile" width="200em">
   </div>
-</div>
+</div><br/>
 
+>Página de sistemas embarcados
 <div id="SE" align="center" display="inline_block" >
-  <img src="" alt="Print da página SE no desktop" width="60%">
-  <img src="" alt="Print da página SE no desktop modo light" width="60%">
-  <img src="" alt="Print da página SE no mobile" width="200em">
-  <img src="" alt="Print da página SE no moblie modo light" width="200em">
-  
-  <div display="inline_block">
-    
-  </div>
-</div>
+  <img src="ReadmeMedias/SEDesktopDark.png" alt="Print da página SE no desktop" width="60%">
+  <img src="ReadmeMedias/SEDesktopLight.png" alt="Print da página SE no desktop modo light" width="60%">
+</div><br/>
 
+>Conteúdo textual
 <div id="conteudoTextual" align="center" display="inline_block">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no desktop" width="60%">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no desktop modo light" width="60%">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no mobile" width="200em">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no moblie modo light"width="200em">
-  
-  <img src="" alt="Video dos links retrateis na página SE no desktop" id="lists" width="60%">
-  
-  <div display="inline_block">
-    
+  <img src="ReadmeMedias/SETextoDesktopDark.png" alt="Print do conteúdo textual na página SE no desktop" width="60%">
+  <img src="ReadmeMedias/SETextoDesktopLight.png" alt="Print do conteúdo textual na página SE no desktop modo light" width="60%">
   </div>
 </div>
 
 ### Página sobre a empresa
 
+>Banner
 <div id="overtech" align="center" display="inline_block">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no desktop" width="60%">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no desktop modo light" width="60%">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no mobile" width="200em">
-  <img src="" alt="Print do embed do conteúdo em vídeo na página SE no moblie modo light" width="200em">
+  <img src="ReadmeMedias/bannerOvertechDesktopDark.png" alt="Print do embed do conteúdo em vídeo na página SE no desktop" width="60%">
+  <img src="ReadmeMedias/bannerOvertechDesktopLight.png" alt="Print do embed do conteúdo em vídeo na página SE no desktop modo light" width="60%">
   
   <div display="inline_block">
-    
+      <img src="ReadmeMedias/bannerOvertechMobileDark.png" alt="Print do embed do conteúdo em vídeo na página SE no mobile" width="200em">
+      <img src="ReadmeMedias/bannerOvertechMobileLight.png" alt="Print do embed do conteúdo em vídeo na página SE no moblie modo light" width="200em">
   </div>
-</div>
+</div><br/>
 
+>Menu mobile
 <div id="menuOvertech" align="center" display="inline_block">
-  <img src="" alt="Print do menu aberto na página sobre a empresa no desktop" width="60%">
-  <img src="" alt="Print do menu aberto na página sobre a empresa no desktop modo light" width="60%">
-  <img src="" alt="Print do menu aberto na página sobre a empresa no mobile" width="200em">
-  <img src="" alt="Print do menu aberto na página sobre a empresa no moblie modo light" width="200em">
-  
-  <div display="inline_block">
-    
-  </div>
-</div>
+  <img src="ReadmeMedias/menuOvertechMobileDark.jpeg" alt="Print do menu aberto na página sobre a empresa no mobile" width="200em">
+  <img src="ReadmeMedias/menuOvertechMobileLight.jpeg" alt="Print do menu aberto na página sobre a empresa no moblie modo light" width="200em">
+</div><br/>
 
-<div id="paginaOvertech" align="center" display="inline_block">
-  <img src="" alt="Print da página sobre a empresa no desktop" width="60%">
-  <img src="" alt="Print da página sobre a empresa no desktop modo light" width="60%">
-  <img src="" alt="Print da página sobre a empresa no mobile" width="200em">
-  <img src="" alt="Print da página sobre a empresa no moblie modo light" width="200em">
-  
-  <div display="inline_block">
-    
-  </div>
-</div>
-
+>Cards
 <div id="cardsOvertech" align="center" display="inline_block">
-  <img src="" alt="Print dos cards dos integrantes na página sobre a empresa no desktop" width="60%">
-  <img src="" alt="Print dos cards dos integrantes na página sobre a empresa no desktop modo light" width="60%">
-  <img src="" alt="Print dos cards dos integrantes na página sobre a empresa no mobile" width="200em">
-  <img src="" alt="Print dos cards dos integrantes na página sobre a empresa no moblie modo light" width="200em">
+  <img src="ReadmeMedias/cardsOvertechDesktopDark.png" alt="Print dos cards dos integrantes na página sobre a empresa no desktop" width="60%">
+  <img src="ReadmeMedias/cardsOvertechDesktopLight.png" alt="Print dos cards dos integrantes na página sobre a empresa no desktop modo light" width="60%">
   
   <div display="inline_block">
-    
+      <img src="ReadmeMedias/cardsOvertechMobileDark.png" alt="Print dos cards dos integrantes na página sobre a empresa no mobile" width="200em">
+      <img src="ReadmeMedias/cardsOvertechMobileLight.png" alt="Print dos cards dos integrantes na página sobre a empresa no moblie modo light" width="200em">
   </div>
 </div>
