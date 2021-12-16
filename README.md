@@ -131,12 +131,12 @@ Tendo como ideia central a junção de um canal de notícias e um blog de artigo
 ### Preloader animado (pré-carregamento)
 
 <div id="preloader" align="center">
-  
-  <img src="" alt ="Animação do pré-loader"/>
+
+  <img src="ReadmeMedias/preloaderDark.gif" alt="Animação do pré-loader"/>
   <p align="left"><i>Esse preloader é o mesmo em todas as páginas, a não ser que você altere o tema do site (no menu da página) e em seguida recarrege ou mude a página.</i></p>
   <p><strong>Fazendo isso, ao recarregar ou mudar a página, o preloader é carregado da seguinte forma:</strong></p>
   <br>
-  <img src="" alt ="Animação do pré-loader no tema light"/>
+  <img src="ReadmeMedias/preloaderLight.gif" alt ="Animação do pré-loader no tema light"/>
   
 </div>
 
